@@ -1,0 +1,8 @@
+book{
+    color: rgb(255, 0, 8);
+    font-size: 20px;
+    display: inline;
+}
+bookstore{
+    background-color: aqua;
+}

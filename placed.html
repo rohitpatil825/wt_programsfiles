@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Image Gallery</title>
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      gap: 10px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.1);
+    }
+
+    .caption {
+      text-align: center;
+      margin-top: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Student Image Gallery</h2>
+
+  <div class="gallery">
+    <div>
+      <img src="student1.jpg" alt="Student 1">
+      <div class="caption">John Doe</div>
+    </div>
+    <div>
+      <img src="student2.jpg" alt="Student 2">
+      <div class="caption">Jane Smith</div>
+    </div>
+    <!-- Repeat the structure for the rest of the students -->
+
+    <!-- Add 20 students as needed -->
+
+  </div>
+
+</body>
+</html>

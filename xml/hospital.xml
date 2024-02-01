@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="file.xsl" type="text/xsl"?>
+<hospitalinfo>
+    <patient>
+        <patient_name>
+            abhi abdagire
+        </patient_name>
+        <Address>kolhapur</Address>
+        <doctor>dr patil</doctor>
+        <disease>dengue</disease>
+        <ward_no>4</ward_no>
+        <admitdate>1/1/2024</admitdate>
+        <dischargedate>8/1/2024</dischargedate>
+    </patient>
+</hospitalinfo>
